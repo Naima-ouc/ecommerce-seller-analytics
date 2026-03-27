@@ -13,7 +13,7 @@ The project covers the full workflow from data preparation and SQL-based feature
 - Build a reproducible end-to-end analytics workflow
 - Translate analytical results into business insights through a dashboard
 
-  ---
+---
 
 ## Dataset
 
