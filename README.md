@@ -54,13 +54,13 @@ ecommerce-seller-analytics/
 
 The data pipeline is structured in PostgreSQL using a simple warehouse approach with raw and mart schemas.
 
-## Key steps include:
+###  Key steps include:
 
 Cleaning and transforming raw data
 Joining marketing, seller, and revenue data
 Building analytical tables for downstream analysis and modeling
 
-## Created tables include:
+### Created tables include:
 
 seller_revenue
 ml_seller_features
@@ -68,7 +68,7 @@ ml_model_dataset
 seller_analytics
 Feature Engineering
 
-## Important engineered features include:
+###  Important engineered features include:
 
 Revenue aggregated at seller level
 time_to_close_days
@@ -103,7 +103,7 @@ Model evaluation
 Feature importance analysis
 Results
 
-## Main findings from the model:
+###  Main findings from the model:
 
 Accuracy: approximately 82%
 Strong classification performance for low-value sellers
@@ -111,17 +111,18 @@ Lower recall for high-value sellers due to class imbalance
 ROC-AUC indicates moderate discrimination ability
 Key Drivers of Seller Success
 
-## The most important predictive factors were:
+### The most important predictive factors were:
 
 Time to close
 Lead type
 Marketing channel
 Lead behavior profile
-Dashboard
+
+## Dashboard
 
 A Power BI dashboard was built to translate the analysis into business insights.
 
-## Included analyses:
+### Included analyses:
 
 Total revenue and seller distribution
 High-value seller rate
@@ -131,7 +132,7 @@ Lead behavior impact
 Relationship between sales cycle and revenue
 Long-tail revenue distribution
 
-## Available interactive filters:
+### Available interactive filters:
 
 Marketing channel
 Business segment
